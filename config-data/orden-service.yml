@@ -1,0 +1,5 @@
+# configure the MongoDB client for a replica set of two nodes
+quarkus.mongodb.connection-string = mongodb+srv://admin:admin@distribuida.hvzgt.mongodb.net/db_distribuida2
+# mandatory if you don't specify the name of the database using @MongoEntity
+quarkus.mongodb.database = db_distribuida2
+quarkus.http.port=8086
